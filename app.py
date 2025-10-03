@@ -42,7 +42,7 @@ if build_histogram:
     st.plotly_chart(fig_hist, use_container_width=True)
 
 
-# Casilla de verificaciónnnn para el Gráfico de Dispersión
+# Casilla de verificación para el Gráfico de Dispersión
 build_scatter = st.checkbox(
     'Construir Gráfico de Dispersión (Precio vs. Millas recorridas)')
 
