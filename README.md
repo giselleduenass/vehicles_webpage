@@ -1,5 +1,5 @@
 # vehicles_webpage
-Mi página web es sobre anuncios de coches
+Mi página web es sobre anuncios de coches.
 
 Este proyecto es una aplicación web interactiva desarrollada con Streamlit cuyo propósito principal es transformar un conjunto de datos brutos de anuncios de vehículos usados.
 
