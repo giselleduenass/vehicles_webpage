@@ -7,5 +7,3 @@ Es considerada una herramienta de Análisis Exploratorio de Datos (EDA) accesibl
 
 Esta aplicación sirve para que los usuarios (analistas, vendedores o el público en general) puedan visualizar y comprender las tendencias y relaciones clave dentro del mercado de coches usados en Estados Unidos. Permite responder preguntas como: ¿cómo afecta el millaje al precio?, o ¿cómo se distribuyen los vehículos según su condición?
 Todo esto se analiza por medio de generación de histogramas y por medio de generación de gráficos de dispersión.
-
-El resultado final es una herramienta fácil de usar que convierte los datos complicados en algo visual y entendible.
