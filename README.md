@@ -9,3 +9,5 @@ Esta aplicación sirve para que los usuarios (analistas, vendedores o el públic
 Todo esto se analiza por medio de generación de histogramas y por medio de generación de gráficos de dispersión.
 
 El resultado final es una herramienta fácil de usar que convierte los datos complicados en algo visual y entendible.
+
+Este es el link del dashboard https://vehicles-webpage.onrender.com
