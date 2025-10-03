@@ -10,4 +10,4 @@ Todo esto se analiza por medio de generación de histogramas y por medio de gene
 
 El resultado final es una herramienta fácil de usar que convierte los datos complicados en algo visual y entendible.
 
-Este es el link del dashboard https://vehicles-webpage.onrender.com
+Este es el link del dashboard: https://vehicles-webpage.onrender.com
