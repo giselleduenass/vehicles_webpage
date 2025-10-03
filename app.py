@@ -34,8 +34,8 @@ if build_histogram:
     # Creamos histograma
     fig_hist = px.histogram(
         car_data,
-        x="Odometer",
-        color="Condition",
+        x="odometer",
+        color="condition",
         title="Histograma de Odómetro"
     )
 
@@ -54,8 +54,8 @@ if build_scatter:
     # Creamos el gráfico de dispersión
     fig_scatter = px.scatter(
         car_data,
-        x="Odometer",
-        y="Price",
+        x="odometer",
+        y="price",
         color="type",
         title="Precio vs. Odómetro por Tipo de Vehículo"
     )
