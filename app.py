@@ -16,7 +16,8 @@ st.markdown("---")
 
 st.write(
     """
-    Explorador Visual del Conjunto de Datos de Anuncios de Venta de Coches
+    Explorador Visual del Conjunto de Datos de Anuncios de Venta de Coches.
+    
     Utiliza las casillas de verificación (o filtros) a continuación para seleccionar las variables 
     y generar gráficos interactivos que te permitirán explorar visualmente los datos.
     """
