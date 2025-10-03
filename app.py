@@ -49,7 +49,7 @@ build_scatter = st.checkbox(
 
 if build_scatter:
     # Escribir mensaje
-    st.write('Relación entre el Precio y las millas de los Vehículos:')
+    st.write('Relación entre el Precio y las Millas recorridas de los Vehículos:')
 
     # Creamos el gráfico de dispersión
     fig_scatter = px.scatter(
