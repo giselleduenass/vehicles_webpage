@@ -16,23 +16,25 @@ st.markdown("---")
 
 st.write(
     """
-    Esta aplicación te permite explorar visualmente el conjunto de datos de anuncios de venta de coches.
-    Utiliza las casillas de verificación a continuación para generar gráficos interactivos.
+    Explorador Visual del Conjunto de Datos de Anuncios de Venta de Coches
+    Utiliza las casillas de verificación (o filtros) a continuación para seleccionar las variables 
+    y generar gráficos interactivos que te permitirán explorar visualmente los datos.
     """
 )
 
 # 2. Controles interactivos para la casilla de verficiación
-build_histogram = st.checkbox('Construir Histograma de Millaje (Odómetro)')
+build_histogram = st.checkbox(
+    'Construir Histograma de Millas recorridas (Odómetro)')
 
 if build_histogram:
     # Escribir mensaje
-    st.write('Distribución de Millaje por Condición del Vehículo:')
+    st.write('Distribución de Millas recorridas por Condición del Vehículo:')
 
-    # Crear un histograma (Requisito: Al menos un histograma)
+    # Creamos histograma
     fig_hist = px.histogram(
         car_data,
-        x="odometer",
-        color="condition",
+        x="Odometer",
+        color="Condition",
         title="Histograma de Odómetro"
     )
 
@@ -48,14 +50,14 @@ if build_scatter:
     # Escribir mensaje
     st.write('Relación entre el Precio y las millas de los Vehículos:')
 
-    # Crear un gráfico de dispersión (Requisito: Al menos un gráfico de dispersión)
+    # Creamos el gráfico de dispersión
     fig_scatter = px.scatter(
         car_data,
-        x="odometer",
-        y="price",
+        x="Odometer",
+        y="Price",
         color="type",
         title="Precio vs. Odómetro por Tipo de Vehículo"
     )
 
-    # Mostrar el gráfico Plotly interactivo
+    # Mostramos el gráfico Plotly interactivo
     st.plotly_chart(fig_scatter, use_container_width=True)
